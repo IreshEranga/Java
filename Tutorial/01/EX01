@@ -1,1 +1,24 @@
 
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        int number;
+        int sum1 = 1;
+
+       Scanner num = new Scanner(System.in);
+        System.out.println("Enter positive integer : ");
+        number = num.nextInt();
+
+        if(number < 0)
+        {
+            System.out.println("Invalid number");
+        }
+        else{
+            for(int i=1;i<=number;i++)
+            {
+                sum1 *=  i;
+            }
+            System.out.println("Factorial of "+number+" is "+sum1);
+        }
+    }
+}
