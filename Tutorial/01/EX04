@@ -1,0 +1,22 @@
+import java.util.Scanner; //import scanner
+
+public class Main{
+    public static void main(String[] args)
+    {
+
+        System.out.println("Enter a word : ");
+        Scanner word = new Scanner(System.in);
+        String w = word.nextLine();
+
+        String reverseword = "";
+
+
+        for(int i = w.length()-1; i>=0; i--)
+        {
+            reverseword += w.charAt(i); //the char At
+
+        }
+
+        System.out.println("Reversed word = "+reverseword);
+    }
+}
