@@ -1,0 +1,30 @@
+import java.util.Scanner; //Import scanner class
+public class Main{
+    public static void main(String[] args){
+        int sum = 0, count = 0;
+        float avg;
+
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter number series : ");
+
+        while(true){
+
+            int num = number.nextInt();
+            if(num<0)
+            {
+                System.out.println("Invalid number -----");
+                break;
+            }
+
+             sum += num;
+            count++;
+            //int num = number.nextInt();
+        }
+
+        System.out.println("Sum of the number series : "+sum);
+
+        avg = (float)sum/count;
+        System.out.println("Average of the numbers : "+avg);
+
+    }
+}
