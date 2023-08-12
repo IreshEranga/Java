@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner student = new Scanner(System.in);
+
+        System.out.println("enter your student number : ");
+        String stdnum = student.nextLine();
+
+        System.out.println("Enter your name : ");
+        String name = student.nextLine();
+
+        System.out.println("Enter ditrict : ");
+        String dis = student.nextLine();
+
+        System.out.println("Student Number  "+stdnum);
+        System.out.println("Name : "+name);
+        System.out.println("District  : "+dis);
+
+    }
+}
