@@ -1,7 +1,5 @@
-isEmpty() method returns true if the stack is empty and isFull() method return true if the 
-Stack is full. 
+isEmpty() method returns true if the stack is empty and isFull() method return true if the Stack is full. 
 Implement isEmpty() and isFull() methods of the stack class.
-Using the implemented StackX class, Write a program to create a stack with 
-maximum size 10 and insert the following items to the stack.
+Using the implemented StackX class, Write a program to create a stack with maximum size 10 and insert the following items to the stack.
 30 80 100 25
 Delete all the items from the stack and display the deleted items
